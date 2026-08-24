@@ -1,0 +1,20 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card.json",
+  "name": "labangram-official",
+  "title": "Labangram Official Agent Services",
+  "description": "Public product and documentation MCP surfaces for Labangram.",
+  "version": "1.0.0",
+  "homepage": "https://labangram.kamera-ichi.com",
+  "serverUrl": "https://labangram.kamera-ichi.com/api/product-mcp",
+  "transportTypes": ["streamable-http"],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://labangram.kamera-ichi.com/api/product-mcp", "x-mcp-surface": "product" },
+    { "type": "streamable-http", "url": "https://labangram.kamera-ichi.com/api/mcp", "x-mcp-surface": "documentation" }
+  ],
+  "tools": [
+    { "name": "search_portfolio", "description": "Search Labangram photography and digital product case studies." },
+    { "name": "get_pricing_and_services", "description": "Return current services, prices, and booking steps." },
+    { "name": "get_project", "description": "Get one portfolio project by slug." },
+    { "name": "submit_inquiry", "description": "Prepare a project inquiry for human confirmation; never sends or confirms a booking." }
+  ]
+}

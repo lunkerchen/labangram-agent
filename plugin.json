@@ -1,0 +1,11 @@
+{
+  "name": "labangram-agent-services",
+  "version": "1.0.0",
+  "description": "Public discovery metadata and agent rules for Labangram product and documentation MCP surfaces.",
+  "homepage": "https://labangram.kamera-ichi.com",
+  "mcp": {
+    "registryName": "io.github.lunkerchen/labangram",
+    "productEndpoint": "https://labangram.kamera-ichi.com/api/product-mcp",
+    "documentationEndpoint": "https://labangram.kamera-ichi.com/api/mcp"
+  }
+}
