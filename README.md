@@ -2,6 +2,10 @@
 
 Public agent integration metadata for [Labangram](https://labangram.kamera-ichi.com), a Taiwan-based photography and digital product studio.
 
+## Kamera-ichi developer resources
+
+This repository is the public developer resource for `kamera-ichi.com` and the Labangram Studio agent services: MCP Streamable HTTP, the REST/OpenAPI contract, the no-auth sandbox, and the Go SDK.
+
 ## Machine-readable surfaces
 
 - Product MCP: <https://labangram.kamera-ichi.com/api/product-mcp>
