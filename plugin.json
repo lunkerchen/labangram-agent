@@ -1,11 +1,14 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "labangram-agent-services",
   "version": "1.0.0",
   "description": "Public discovery metadata and agent rules for Labangram product and documentation MCP surfaces.",
+  "author": {
+    "name": "Laban Chen",
+    "url": "https://labangram.kamera-ichi.com"
+  },
   "homepage": "https://labangram.kamera-ichi.com",
-  "mcp": {
-    "registryName": "io.github.lunkerchen/labangram",
-    "productEndpoint": "https://labangram.kamera-ichi.com/api/product-mcp",
-    "documentationEndpoint": "https://labangram.kamera-ichi.com/api/mcp"
-  }
+  "repository": "https://github.com/lunkerchen/labangram-agent",
+  "license": "MIT",
+  "keywords": ["labangram", "mcp", "agent", "photography", "sdk"]
 }
