@@ -1,0 +1,38 @@
+{
+  "name": "@lunkerchen/labangram-agent",
+  "version": "1.0.0",
+  "description": "Small fetch-based JavaScript SDK for Labangram portfolio, services, pricing, and MCP tools.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "labangram",
+    "mcp",
+    "agent",
+    "photography",
+    "sdk"
+  ],
+  "license": "MIT",
+  "homepage": "https://labangram.kamera-ichi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunkerchen/labangram-agent.git",
+    "directory": "sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/lunkerchen/labangram-agent/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
